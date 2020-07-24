@@ -32,7 +32,7 @@ social:
 #   link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
 - icon: github
   icon_pack: fab
-  link: https://github.com/Rdahlke
+  link: https://github.com/rossdahlke
 superuser: true
 title: Ross Dahlke
 user_groups:
