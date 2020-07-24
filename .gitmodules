@@ -4,5 +4,5 @@
 	branch = master
 [submodule "public"]
 	path = public
-	url = https://github.com/rossdahlke/rossdahlke.github.io.git
+	url = git@github.com:rossdahlke.github.io.git
 	branch = master
