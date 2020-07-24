@@ -1,0 +1,7 @@
+/creds/*.json
+.Rproj.user
+app/.RData
+app/.Rhistory
+.RData
+.Rhistory
+.idea
