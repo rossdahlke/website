@@ -1,0 +1,42 @@
+
+Cloning into 'website'...
+Enter passphrase for key '/home/ross_dahlke/.ssh/id_rsa': 
+remote: Enumerating objects: 3, done.[K
+remote: Counting objects:  33% (1/3)[Kremote: Counting objects:  66% (2/3)[Kremote: Counting objects: 100% (3/3)[Kremote: Counting objects: 100% (3/3), done.[K
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0[K
+Receiving objects:  33% (1/3)   Receiving objects:  66% (2/3)   Receiving objects: 100% (3/3)   Receiving objects: 100% (3/3), done.
+]0;/home/ross_dahlke/git(ds_env) ]0;ross_dahlke@analytics-workspace-ross-west: ~/git[01;32mross_dahlke@analytics-workspace-ross-west[00m:[01;34m~/git[00m$ ls
+[0m[01;34mchn_schn_mapping[0m        [01;34mds_gmi[0m           [01;34mds_ssmta[0m    [01;34mresume_cv[0m
+[01;34mds_allen_edmonds[0m        [01;34mds_justice[0m       [01;34mds_uhc[0m      [01;34mrossdahlke.github.io[0m
+[01;34mds_bww[0m                  [01;34mds_loft[0m          [01;34mm2_mmm[0m      [01;34mwebsite[0m
+[01;34mds_calculation_engine[0m   [01;34mds_mmm_dataprep[0m  [01;34mmmm[0m         [01;34mwebsite_backup[0m
+[01;34mds_diminishing_returns[0m  [01;34mds_sc[0m            [01;34mogmmm[0m
+[01;34mds_documentation[0m        [01;34mds_shiny_apps[0m    output.csv
+]0;/home/ross_dahlke/git(ds_env) ]0;ross_dahlke@analytics-workspace-ross-west: ~/git[01;32mross_dahlke@analytics-workspace-ross-west[00m:[01;34m~/git[00m$ cd website
+]0;/home/ross_dahlke/git/website(ds_env) ]0;ross_dahlke@analytics-workspace-ross-west: ~/git/website[01;32mross_dahlke@analytics-workspace-ross-west[00m:[01;34m~/git/website[00m$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31m.Rproj.user/[m
+	[31massets/[m
+	[31mconfig.toml[m
+	[31mconfig/[m
+	[31mcontent/[m
+	[31mindex.Rmd[m
+	[31mpublic/[m
+	[31mresources/[m
+	[31mstatic/[m
+	[31mthemes/[m
+	[31mwebsite.Rproj[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+]0;/home/ross_dahlke/git/website(ds_env) ]0;ross_dahlke@analytics-workspace-ross-west: ~/git/website[01;32mross_dahlke@analytics-workspace-ross-west[00m:[01;34m~/git/website[00m$ git submodule add -f -b ma ster https://github.cpom[K[K[Kom/rossdahlke/rossdahlke.github.io.git
+Cloning into '/home/ross_dahlke/git/website/rossdahlke.github.io'...
+remote: Enumerating objects: 3, done.[K
+remote: Counting objects:  33% (1/3)[Kremote: Counting objects:  66% (2/3)[Kremote: Counting objects: 100% (3/3)[Kremote: Counting objects: 100% (3/3), done.[K
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0[K
+Unpacking objects:  33% (1/3)   Unpacking objects:  66% (2/3)   Unpacking objects: 100% (3/3)   Unpacking objects: 100% (3/3), done.
+]0;/home/ross_dahlke/git/website(ds_env) ]0;ross_dahlke@analytics-workspace-ross-west: ~/git/website[01;32mross_dahlke@analytics-workspace-ross-west[00m:[01;34m~/git/website[00m$ 
